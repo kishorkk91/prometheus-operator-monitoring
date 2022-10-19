@@ -35,11 +35,13 @@ docker.artifactory.devops.crealogix.com/kiwigrid/k8s-sidecar:1.10.7
 `
 
 ####kube-state-metrics:
+
 `
 docker.artifactory.devops.crealogix.com/kube-state-metrics/kube-state-metrics:v1.9.8
 `
 
 ####prometheus-node-exporter:
+
 `
 docker.artifactory.devops.crealogix.com/prometheus/node-exporter:v1.1.2
 `
