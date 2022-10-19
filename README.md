@@ -8,6 +8,7 @@ https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus
 
 ## To deploy kube-prometheus-stack stack on cluster, the following images are taged and used from internal Docker repository
 ####custom prom-values-devops.yaml:
+
 docker.artifactory.devops.crealogix.com/prometheus/alertmanager:v0.21.0
 docker.artifactory.devops.crealogix.com/jettech/kube-webhook-certgen:v1.5.0
 docker.artifactory.devops.crealogix.com/prometheus-operator/prometheus-operator:v0.46.0
