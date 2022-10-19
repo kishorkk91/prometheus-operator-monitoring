@@ -11,8 +11,11 @@ https://github.com/prometheus-community/helm-charts/releases/tag/kube-prometheus
 
 `
 docker.artifactory.devops.crealogix.com/prometheus/alertmanager:v0.21.0
+
 docker.artifactory.devops.crealogix.com/jettech/kube-webhook-certgen:v1.5.0
+
 docker.artifactory.devops.crealogix.com/prometheus-operator/prometheus-operator:v0.46.0
+
 docker.artifactory.devops.crealogix.com/prometheus/prometheus:v2.24.0
 `
 ####grafana:
