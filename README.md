@@ -18,26 +18,36 @@ docker.artifactory.devops.crealogix.com/prometheus-operator/prometheus-operator:
 
 docker.artifactory.devops.crealogix.com/prometheus/prometheus:v2.24.0
 `
+
 ####grafana:
 
 `
 docker.artifactory.devops.crealogix.com/grafana/grafana:7.4.5
+
 docker.artifactory.devops.crealogix.com/bats/bats:v1.1.0
+
 docker.artifactory.devops.crealogix.com/curlimages/curl:7.73.0
+
 docker.artifactory.devops.crealogix.com/busybox:1.31.1
+
 docker.artifactory.devops.crealogix.com/kiwigrid/k8s-sidecar:1.10.7
+
 `
+
 ####kube-state-metrics:
 `
 docker.artifactory.devops.crealogix.com/kube-state-metrics/kube-state-metrics:v1.9.8
 `
+
 ####prometheus-node-exporter:
 `
 docker.artifactory.devops.crealogix.com/prometheus/node-exporter:v1.1.2
 `
+
 ### Setting namespace permanently
 `kubectl config set-context --current --namespace=monitoring
 `
+
 ### Apply Artifactory Docker credentials to logging namespace
 `kubectl apply -f artifactory-docker-regcred.yaml
 `
